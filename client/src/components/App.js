@@ -31,7 +31,7 @@ class App extends Component {
           </header>
           <Route exact path="/" component={HomePage} />
           <Route exact path="/login" render={() => <LoginPage token={this.state.token} />} />
-          <PrivateRoute path="/dashboard" component={DashboardPage} token={this.state.token} />
+          <PrivateRoute path="/dashboard"  component={DashboardPage} token={this.state.token} />
         </div>
       </BrowserRouter>
     );

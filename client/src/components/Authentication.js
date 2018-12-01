@@ -5,8 +5,8 @@ import Auth from '../utils/auth';
 
 const Authentication = props => (
   props.token
-    ? <div onClick={() => Auth.logout()}>Logout</div>
-    : <Link to='/login'>Login</Link>
+    ? <button className="btn btn-dark float-right mt-4" onClick={() => Auth.logout()}>Logout</button>
+    : <Link className="linkLogin" to='/login'>Login</Link>
 );
 
 export default Authentication;

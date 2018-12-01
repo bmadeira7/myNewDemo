@@ -1,0 +1,24 @@
+.falaHeader {
+    font-size: 6vw;
+   
+    box-shadow: 2vw 2vw 99vw 9vw rgb(106, 111, 139);
+    color:rgb(255, 255, 255);
+    font-family: 'Permanent Marker', cursive;
+}
+.dashWhole {
+    background-color: #181320;
+    
+}
+.typeMessage {
+    width: 70vw;
+   margin-left: 4vw;
+    border-radius: 3vw;
+}
+.submitBtn{
+    width: 18vw;
+    margin-left: 3vw;
+    
+}
+.msgInput{
+    margin-top: 38vw;
+}

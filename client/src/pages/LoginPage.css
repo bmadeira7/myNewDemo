@@ -1,0 +1,19 @@
+.loginPage{
+    background-color: #7A8098;
+    height: 40vw;
+}
+.login {
+    font-size: 10vw;
+    box-shadow: 2vw 2vw 99vw 9vw black;
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+}
+.linkLogin{
+    font-size: 0%;
+}
+.emailField{
+width: 30vw;
+}
+.passwordField{
+    width: 30vw;
+}
